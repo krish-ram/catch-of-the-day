@@ -2,10 +2,6 @@ import React from "react";
 import { getFunName } from "../helpers";
 export class StorePicker extends React.Component {
   myInput = React.createRef();
-  constructor() {
-    super();
-    // this.gotoStore = this.gotoStore.bind(this);
-  }
 
   gotoStore = event => {
     event.preventDefault();
